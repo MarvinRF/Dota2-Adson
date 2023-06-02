@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: trajan;
+    src: url(font/TrajanPro-Bold.otf) format('opentype');
+}
+
+body {
+    background: black;
+    font-family: trajan;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+}
+
+header div #logo {
+    margin-left: 10px;
+    max-width: 180px;
+    max-height: 100px;
+}
+
+header .ptop {
+    padding-top: 25px;
+}
+
+header .ptop {
+    text-decoration: none;
+    color: #ccc;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+header .lateral {
+    font-size: 0.7em;
+    padding-bottom: 10px;
+    align-items: end;
+
+}
+
+
+body video {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header {
+    position: relative;
+    z-index: 1;
+}
+
+header .steam {
+    height: 65px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    margin-left: -50px;
+    margin-right: 20px;
+    padding-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+header .steam img {
+    max-width: 19px;
+    max-height: 20px;
+}
+
+header .steam-1 img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-left: -20px;
+}
+
+header .steam-1,
+#fifty-section .steam-1 {
+    height: 75px;
+    width: 300px;
+    margin-top: 10px;
+    padding-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+header div h1 {
+    color: white;
+    font-size: 4em;
+    margin-left: 170px;
+    margin-top: 100px;
+}
+
+.refs {
+    margin-left: 170px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.HorizBar {
+    width: 80px;
+    height: 3px;
+    min-height: 3px;
+    background-color: #ff6046;
+    border-radius: 1px;
+}
+
+video {
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    margin-top: -39%;
+}
+
+.menu {
+    position: relative;
+    z-index: 1;
+}
+
+#transicao {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5158438375350141) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0.8127626050420168) 100%);
+    height: 250px;
+    display: inline-flex;
+
+}
+
+.cd1 img {
+    width: 350px;
+    height: 220px;
+    margin: 15px;
+    justify-items: center;
+    position: relative;
+    flex-wrap: wrap
+}
+
+#frist-section {
+    background-image: url(/imagens/radiant_dire5.jpg);
+    object-fit: cover;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+#frist-section h1,
+#second-section h1,
+#third-section h1,
+#fourth-section h1,
+#fifty-section h1 {
+    color: white;
+    font-size: 5.4em;
+}
+
+#frist-section h2,
+#second-section h2,
+#third-section h2,
+#fourth-section h2,
+#fifty-section h2 {
+    color: #ccc;
+    font-size: 3.125em;
+}
+
+.central {
+    text-align: center;
+}
+
+#second-section {
+    background-image: url(/imagens/Dota-2-hero-artwork.jpg);
+    object-fit: cover;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+#third-section {
+    background-color: black;
+    object-fit: cover;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+#fourth-section {
+    background-image: url(/imagens/dpc.jpg);
+    object-fit: cover;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+#fifty-section {
+    background-image: url(/imagens/background4.png);
+    object-fit: cover;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+#fifty-section .steam-1 img{
+    max-width: 19px;
+    max-height: 20px;
+}
