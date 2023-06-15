@@ -127,6 +127,16 @@ header div h1 {
     border-radius: 1px;
 }
 
+.HorizBar-center {
+    width: 80px;
+    height: 3px;
+    min-height: 3px;
+    background-color: #ff6046;
+    border-radius: 1px;
+    margin-left: 50%;
+    margin-bottom: 20px;
+}
+
 video {
     position: sticky;
     top: 0%;
@@ -165,7 +175,7 @@ video {
     object-fit: cover;
     background-size: 100vw;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 780px;
 }
 
 #frist-section h1,
@@ -195,7 +205,8 @@ video {
     object-fit: cover;
     background-size: 100vw;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 780px;
+    margin-bottom: 40px;
 }
 
 #third-section {
@@ -203,7 +214,8 @@ video {
     object-fit: cover;
     background-size: 100vw;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 780px;
+    margin-bottom: 40px;
 }
 
 #fourth-section {
@@ -211,7 +223,8 @@ video {
     object-fit: cover;
     background-size: 100vw;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 780px;
+    margin-bottom: 40px;
 }
 
 #fifty-section {
@@ -219,10 +232,28 @@ video {
     object-fit: cover;
     background-size: 100vw;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 780px;
+    margin-bottom: 40px;
 }
 
 #fifty-section .steam-1 img{
     max-width: 19px;
     max-height: 20px;
+}
+
+.div-blank{
+    height: 420px;
+}
+
+.inner-text{
+    margin-left: 16%;
+    max-width: 900px;
+}
+
+.inner-text>p{
+    color:#fff;
+    text-align: center;
+    font-family:"Noto Sans",sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
